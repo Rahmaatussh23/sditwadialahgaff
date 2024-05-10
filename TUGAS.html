@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tugas Kedua</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <p :style="{ color: 'orange' }">{{ message }}</p>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        message: 'selamat pagi tutor, ini adalah tugas kedua saya'
+      }
+    })
+  </script>
+</body>
+</html>

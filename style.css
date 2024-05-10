@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -9,9 +9,14 @@ body {
   margin: auto;
   overflow: hidden;
 }
+.container img {
+  width: 5vh;
+  height: 5vh;
+}
+
 
 header {
-  background: #333;
+  background: 333
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -44,11 +49,6 @@ nav ul li a {
     padding: 0;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
 
 header {
     background: #333;
@@ -79,7 +79,9 @@ nav ul li a {
     background-image: url('background.jpg'); /* Ganti dengan gambar latar belakang Anda */
     color: #fff;
     padding: 100px 0;
-    text-align: center;
+   
+    justify-content: center;
+    align-items: center text-align: center;;
 }
 
 #hero h1 {
